@@ -45,6 +45,6 @@ else
 fi
 ```
 4.点击查看密钥，并复制密钥
-5.到达 github repo，找到 settings，选择 Webhooks，点击 add Webhooks，确认密码
-6.在 Payload URL 中输入 ' http://*.*.*.*:8888/hook?access_key=(第4步中的密钥)
-' 好了就这么简单！代码部分转载于谷歌的一个公共平台！且亲测可用的！
+5.到达 `github repo`，找到 `settings`，选择 `Webhooks`，点击 `add Webhooks`，确认密码
+6.在 Payload URL 中输入 `http://*.*.*.*:8888/hook?access_key=(第4步中的密钥)
+`好了就这么简单！代码部分转载于谷歌的一个公共平台！且亲测可用的！
